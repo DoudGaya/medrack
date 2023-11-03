@@ -16,8 +16,15 @@ module.exports = {
       },
     },
     extend: {
+       fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+        'quicksand': [ 'Quicksand', 'sans-serif']
+      },
       colors: {
         border: "hsl(var(--border))",
+        "brand-green": "rgb(0,191,98)",
+        "brand-pink": "#FF0375",
+        'brand-dark': "#FF0375",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
